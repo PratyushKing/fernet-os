@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "sTieNF5a+R3KYuT594kO2Ip/2cbtGhJBAr+9jHPTdcNbh6MBl2pvVtKTcO/k36HCTrKgOvUjJ95DumdckS6fNg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\source\\repos\\fernet-os\\fernet-os\\fernet-os.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\cosmos.build\\0.1.0-localbuild20230915072454\\cosmos.build.0.1.0-localbuild20230915072454.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\cosmos.common\\0.1.0-localbuild20230915072508\\cosmos.common.0.1.0-localbuild20230915072508.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\cosmos.core\\0.1.0-localbuild20230915072508\\cosmos.core.0.1.0-localbuild20230915072508.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\cosmos.debug.kernel\\0.1.0-localbuild20230915072508\\cosmos.debug.kernel.0.1.0-localbuild20230915072508.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\cosmos.hal2\\0.1.0-localbuild20230915072508\\cosmos.hal2.0.1.0-localbuild20230915072508.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\cosmos.plugs\\0.1.0-localbuild20230915072508\\cosmos.plugs.0.1.0-localbuild20230915072508.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\cosmos.system2\\0.1.0-localbuild20230915072508\\cosmos.system2.0.1.0-localbuild20230915072508.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\il2cpu.api\\0.1.0-localbuild20230915072508\\il2cpu.api.0.1.0-localbuild20230915072508.nupkg.sha512"
+  ],
+  "logs": []
+}
