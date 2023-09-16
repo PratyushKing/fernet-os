@@ -12,7 +12,7 @@ namespace fernet_os
 {
     public class Kernel : Sys.Kernel
     {
-
+        public static CosmosVFS fs = new();
         protected override void BeforeRun()
         {
             Console.ForegroundColor = ConsoleColor.Green;
@@ -37,7 +37,7 @@ namespace fernet_os
                 Cosmos.System.Power.Shutdown();
             }
         }
-        public static CosmosVFS fs = new();
+        
         public static bool gui = false;
         public static Canvas guiDisplay;
         protected override void Run()
@@ -135,6 +135,23 @@ namespace fernet_os
 
             }
 
+            if (input.StartsWith("touch "))
+
+            {
+
+                File.Create(input.Replace("touch ", "0:\\")); //this will create file!
+                
+            }
+
+            if (input.StartsWith("rm "))
+
+            {
+
+                File.Create(input.Replace("rm ", "0:\\")); //this will create file!
+                
+            }
+
+            
             if (!gui)
             {
                 
