@@ -1,6 +1,6 @@
 1. GUI;
 2. Apps;
-3. improve shell;
+3. improve shell(50%);
 4. User system;
 5. Networking;
 6. Reading files;
