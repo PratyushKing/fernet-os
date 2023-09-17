@@ -3,7 +3,7 @@
 3. improve shell;
 4. User system;
 5. Networking;
-6. Reding files;
+6. Reading files;
 7. Text editor;
 8. Loading screen;
 9. Improve readme(done).
