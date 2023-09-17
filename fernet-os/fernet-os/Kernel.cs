@@ -74,7 +74,31 @@ namespace fernet_os
                 Console.WriteLine("Special thanks to PratyushKing");
 
             }
+            
+            if (input == "help")
 
+            {
+
+                Console.WriteLine("What do you need help with?(write: guihelp, colorhelp");
+
+            }
+
+            if (input == "guihelp")
+
+            {
+
+                Console.WriteLine("Write launch");
+
+            }
+
+            if (input == "colorhelp")
+
+            {
+
+                Console.WriteLine("To change color of text write in console name of color from color list");
+                Console.WriteLine("To see color list write in console name of color from color settings");
+
+            }
 
             if (input == "")
 
