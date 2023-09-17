@@ -56,11 +56,14 @@ boot.Disable();
         public static Canvas guiDisplay;
         protected override void Run()
         {
-
+        
+  Console.WriteLine("Type help or commandlist to check avaiable commands");
+  
         shell:
 
             Console.Write("fernet_os> ");
             var input = Console.ReadLine();
+            
 
             if (input == "commandslist")
 
