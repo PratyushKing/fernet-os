@@ -5,3 +5,4 @@
 5. Networking
 6. Reding files
 7. Text editor
+8. Loading screen
