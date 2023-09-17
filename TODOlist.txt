@@ -3,3 +3,5 @@
 3. improve shell
 4. User system
 5. Networking
+6. Reding files
+7. Text editor
