@@ -1,8 +1,9 @@
-1. GUI
-2. apps
-3. improve shell
-4. User system
-5. Networking
-6. Reding files
-7. Text editor
-8. Loading screen
+1. GUI;
+2. Apps;
+3. improve shell;
+4. User system;
+5. Networking;
+6. Reding files;
+7. Text editor;
+8. Loading screen;
+9. Improve readme.
