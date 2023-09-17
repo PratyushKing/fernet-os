@@ -36,6 +36,20 @@ namespace fernet_os
                 Console.ReadKey();
                 Cosmos.System.Power.Shutdown();
             }
+            Thread.Sleep(3500);
+            Canvas boot = FullScreenCanvas.GetFullScreenCanvas(new Mode(640, 480, ColorDepth.ColorDepth32));
+            boot.Clear();
+            var cY = 480 / 2 - 100;
+            while (cY != 480 / 2)
+            {
+                Cosmos.System.MouseManager.ScreenWidth = 640;
+                Cosmos.System.MouseManager.ScreenHeight = 480;
+                boot.Clear(Color.Black);
+                boot.DrawString("Fernet-OS", 640 / 4, 480 / 2);
+                cY++;
+                boot.Display();
+            }
+boot.Disable();
         }
         
         public static bool gui = false;
