@@ -1,9 +1,9 @@
-1. GUI;
-2. Apps;
+1. GUI(10%);
+2. Apps(0%);
 3. improve shell(50%);
-4. User system;
-5. Networking;
-6. Reading files;
-7. Text editor;
-8. Loading screen;
+4. User system(0%);
+5. Networking(0%);
+6. Reading files(0%);
+7. Text editor(0%);
+8. Loading screen(0%);
 9. Improve readme(done).
