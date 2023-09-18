@@ -1,4 +1,4 @@
-﻿using Cosmos.System.FileSystem;
+using Cosmos.System.FileSystem;
 using Cosmos.System.FileSystem.VFS;
 using Cosmos.System.Graphics;
 using System;
@@ -8,6 +8,7 @@ using System.Text;
 using Sys = Cosmos.System;
 using System.IO;
 using System.Threading;
+using Cosmos.System.Graphics.Fonts;
 
 namespace fernet_os
 {
@@ -24,7 +25,7 @@ namespace fernet_os
             Console.WriteLine("|      fernet_os     |");
             Console.WriteLine("|                    |");
             Console.WriteLine("|                    |");
-            Console.WriteLine("||||||||||||||||||||||");
+            Console.WriteLine("||||||||||||||||||||||");      
             try
             {
                 VFSManager.RegisterVFS(fs);
