@@ -114,7 +114,7 @@ boot.Disable();
             {
 
                FalGUI newG = new();
-               newG.Configure(ConsoleColor.DarkBlue, "TestingThatsNotOS", "v1.0");
+               newG.Configure(ConsoleColor.DarkBlue, "fernet-os", "v1.0");
                newG.Run();
 
             }
