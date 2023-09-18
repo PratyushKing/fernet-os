@@ -46,7 +46,7 @@ namespace fernet_os
                 Cosmos.System.MouseManager.ScreenWidth = 640;
                 Cosmos.System.MouseManager.ScreenHeight = 480;
                 boot.Clear(Color.Black);
-                boot.DrawString("Fernet-OS", 640 / 4, 480 / 2);
+                boot.DrawString("Fernet-OS", PCScreenFont.Default, Color.White, 640 / 4, 480 / 2);
                 cY++;
                 boot.Display();
             }
