@@ -25,8 +25,6 @@ namespace fernet_os
             Console.WriteLine("|                    |");
             Console.WriteLine("|                    |");
             Console.WriteLine("||||||||||||||||||||||");
-            File.Create("0:\readme.txt");
-            File.WriteAllText("0:\test.txt", "Fernet_os is os made by NikitaPos");
             try
             {
                 VFSManager.RegisterVFS(fs);
