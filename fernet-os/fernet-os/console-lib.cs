@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Data;
 
-namespace FalGUI_LIB;
+namespace fernet_os
+{
 public class FalGUI
 {
     public ConsoleColor backgroundC = ConsoleColor.DarkCyan;
@@ -495,4 +496,5 @@ public class FalGUI
             }
         }
     }
+}
 }
