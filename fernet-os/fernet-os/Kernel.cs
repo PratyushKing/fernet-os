@@ -73,6 +73,7 @@ boot.Disable();
                 Console.WriteLine("clear - clear console from text");
                 Console.WriteLine("color settings - color options");
                 Console.WriteLine("credits - credits");
+                Console.WriteLine("consolegui - enable gui of console");
 
             }
 
@@ -107,6 +108,17 @@ boot.Disable();
                 Console.WriteLine("Write launch");
 
             }
+
+            if (input == "consolegui")
+
+            {
+
+               FalGUI newG = new();
+               newG.Configure(ConsoleColor.DarkBlue, "TestingThatsNotOS", "v1.0");
+               newG.Run();
+
+            }
+
 
             if (input == "colorhelp")
 
