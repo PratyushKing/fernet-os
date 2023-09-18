@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Text;
 using Sys = Cosmos.System;
 using System.IO;
+using System.Threading;
 
 namespace fernet_os
 {
