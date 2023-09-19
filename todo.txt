@@ -1,0 +1,13 @@
+GUI(medium priority):
+1. Gui loading screen;
+2. Mouse fix;
+3. Programs.
+User system(high priority):
+1. Login system;
+2. Registration system.
+Improved file system(medium priority):
+1. File creation;
+2. Read file;
+3. File editor.
+Networking(low priority):
+1. Networking.
