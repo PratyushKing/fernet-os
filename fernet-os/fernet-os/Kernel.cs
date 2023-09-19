@@ -56,8 +56,10 @@ boot.Disable();
         public static Canvas guiDisplay;
         protected override void Run()
         {
-        
-  Console.WriteLine("Type help or commandlist to check avaiable commands");
+            var available_space = fs.GetAvailableFreeSpace(@"0:\");
+            var fs_type = fs.GetFileSystemType(@"0:\");
+            var files_list = Directory.GetFiles(@"0:\");
+            Console.WriteLine("Type help or commandlist to check avaiable commands");
   
         shell:
 
@@ -74,6 +76,8 @@ boot.Disable();
                 Console.WriteLine("color settings - color options");
                 Console.WriteLine("credits - credits");
                 Console.WriteLine("consolegui - enable gui of console");
+                Console.WriteLine("avaialablespace");
+                Console.WriteLine("filesystem");
 
             }
 
@@ -85,6 +89,33 @@ boot.Disable();
 
             }
 
+            if (input == "availablespace")
+
+            {
+
+                Console.WriteLine("Available Free Space: " + available_space);
+
+            }
+
+            if (input == "filesystem")
+
+            {
+
+                Console.WriteLine("File System Type: " + fs_type);
+
+            }
+
+            if (input == "fileslist")
+
+            {
+
+                foreach (var file in files_list)
+                {
+                    Console.WriteLine(file);
+                }
+
+            }
+
             if (input == "credits")
 
             {
@@ -92,7 +123,7 @@ boot.Disable();
                 Console.WriteLine("Special thanks to PratyushKing");
 
             }
-            
+
             if (input == "help")
 
             {
